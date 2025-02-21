@@ -4,26 +4,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/styles.css">
     <title>Weather Forecast</title>
 </head>
 
 <body>
-    <header>
-        <input type="search" placeholder="Enter a city..." required>
-        <input type="submit" value="Search">
-    </header>
-    <main>
-        <h1>Paris</h1>
-        <p>Tuesday 14:49, scattered clouds
-            <br>
-            Humidity: 67%, Wind: 4.12km/h
-        </p>
-        <div>⛅ 14°C</div>
-    </main>
-    <footer>This project was coded by <a href="https://github.com/YamkelaD/" target="_blank">Yamkela Dlamini</a>,
-        is <a href="https://github.com/" target="_blank">open-sourced on Github</a> and hosted on
-        <a href="https://www.netlify.com/" target="_blank">Netlify</a>
-    </footer>
+    <div class="weather-app">
+        <header>
+            <input type="search" placeholder="Enter a city..." required class="search-input">
+            <input type="submit" value="Search" class="search-button">
+        </header>
+        <main>
+            <h1>Paris</h1>
+            <p>Tuesday 14:49, scattered clouds
+                <br>
+                Humidity: 67%, Wind: 4.12km/h
+            </p>
+            <div>⛅ 14°C</div>
+        </main>
+        <footer>This project was coded by <a href="https://github.com/YamkelaD/" target="_blank">Yamkela Dlamini</a>,
+            is <a href="https://github.com/" target="_blank">open-sourced on Github</a> and hosted on
+            <a href="https://www.netlify.com/" target="_blank">Netlify</a>
+        </footer>
+    </div>
 </body>
 
 </html>

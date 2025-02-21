@@ -1,0 +1,29 @@
+body {
+  background-color: #f9f7fe;
+  font-family: "Roboto", serif;
+}
+
+.weather-app {
+  background-color: white;
+  width: 50%;
+  margin: 50px auto;
+  padding: 30px;
+}
+
+.search-input {
+  background-color: #f9f7fe;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  width: 70%;
+  font-size: 16px;
+}
+.search-button {
+  background-color: #885df1;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  margin-left: 5px;
+  font-size: 16px;
+}
