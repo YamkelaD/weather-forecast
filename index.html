@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
+    <script src="https://unpkg.com/axios@1.6.7/dist/axios.min.js"></script>
     <title>Weather Forecast</title>
 </head>
 
@@ -23,7 +24,7 @@
         <main>
             <div class="weather-app-data">
                 <div>
-                    <h1 class="weather-city" id="city">Paris</h1>
+                    <h1 class="weather-city" id="city"></h1>
                     <p class="weather-details">Tuesday 14:49, scattered clouds
                         <br>
                         Humidity: <span class="humidity-percentage">67%</span>, Wind: <span
@@ -32,7 +33,7 @@
                 </div>
                 <div class="temperature">
                     <div class="temperature-icon">⛅</div>
-                    <div class="temperature-value">14</div>
+                    <div class="temperature-value" id="temperature-value"></div>
                     <div class="temperature-unit">°C</div>
                 </div>
             </div>
